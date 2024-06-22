@@ -8,5 +8,5 @@ require("mvrcoag.plugins.lualine")
 require("mvrcoag.plugins.telescope")
 require("mvrcoag.plugins.nvim-cmp")
 require("mvrcoag.plugins.lsp.mason")
+require("mvrcoag.plugins.lsp.lspsaga")
 require("mvrcoag.plugins.lsp.lspconfig")
-

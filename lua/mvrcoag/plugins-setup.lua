@@ -39,6 +39,8 @@ require("lazy").setup({
   -- lspconfig
   "hrsh7th/cmp-nvim-lsp",
   "neovim/nvim-lspconfig",
+  -- lsp saga
+  "nvimdev/lspsaga.nvim",
   -- welcome screen
   {
     'goolord/alpha-nvim',
