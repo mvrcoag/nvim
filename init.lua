@@ -1,0 +1,10 @@
+require("mvrcoag.plugins-setup")
+require("mvrcoag.core.options")
+require("mvrcoag.core.keymaps")
+require("mvrcoag.core.colorscheme")
+require("mvrcoag.plugins.comment")
+require("mvrcoag.plugins.nvim-tree")
+require("mvrcoag.plugins.lualine")
+require("mvrcoag.plugins.telescope")
+require("mvrcoag.plugins.nvim-cmp")
+
