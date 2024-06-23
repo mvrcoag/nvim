@@ -12,4 +12,5 @@ require("mvrcoag.plugins.lsp.lspsaga")
 require("mvrcoag.plugins.lsp.lspconfig")
 require("mvrcoag.plugins.autopairs")
 require("mvrcoag.plugins.treesitter")
+require("mvrcoag.plugins.gitsigns")
 

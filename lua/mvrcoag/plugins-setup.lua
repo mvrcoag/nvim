@@ -53,4 +53,6 @@ require("lazy").setup({
   -- auto closing
   "windwp/nvim-autopairs",
   "windwp/nvim-ts-autotag",
+  -- git signs
+  "lewis6991/gitsigns.nvim",
 })
