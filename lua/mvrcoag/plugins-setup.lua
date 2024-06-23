@@ -48,4 +48,9 @@ require("lazy").setup({
     'goolord/alpha-nvim',
     config = alpha.config
   },
+  -- treesitter
+  "nvim-treesitter/nvim-treesitter",
+  -- auto closing
+  "windwp/nvim-autopairs",
+  "windwp/nvim-ts-autotag",
 })

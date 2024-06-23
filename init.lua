@@ -10,3 +10,6 @@ require("mvrcoag.plugins.nvim-cmp")
 require("mvrcoag.plugins.lsp.mason")
 require("mvrcoag.plugins.lsp.lspsaga")
 require("mvrcoag.plugins.lsp.lspconfig")
+require("mvrcoag.plugins.autopairs")
+require("mvrcoag.plugins.treesitter")
+
