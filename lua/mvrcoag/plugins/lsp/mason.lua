@@ -12,8 +12,9 @@ end
 
 mason_lspconfig.setup({
   ensure_installed = {
-     "lua_ls",
+    "lua_ls",
     "phpactor",
+    "vtsls",
   },
   automatic_installation = true,
 })
