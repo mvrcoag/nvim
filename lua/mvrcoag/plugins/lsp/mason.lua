@@ -15,6 +15,7 @@ mason_lspconfig.setup({
     "lua_ls",
     "phpactor",
     "vtsls",
+    "prismals",
   },
   automatic_installation = true,
 })

@@ -29,6 +29,7 @@ local servers = {
   "lua_ls",
   "phpactor",
   "vtsls",
+  "prismals",
 }
 
 for _, lsp in ipairs(servers) do
