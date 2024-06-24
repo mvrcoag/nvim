@@ -35,7 +35,3 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
--- format current file
-keymap.set("n", "<leader>fjs", ':lua require("mvrcoag.custom.format").format_with_prettier()<CR>')
-keymap.set("n", "<leader>fphp", ':lua require("mvrcoag.custom.format").format_with_php_cs_fixer()<CR>')
-
