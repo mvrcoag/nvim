@@ -43,6 +43,9 @@ require("lazy").setup({
   "neovim/nvim-lspconfig",
   -- lsp saga
   "nvimdev/lspsaga.nvim",
+  -- null-ls
+  "jose-elias-alvarez/null-ls.nvim",
+  "jayp0521/mason-null-ls.nvim",
   -- welcome screen
   {
     'goolord/alpha-nvim',
