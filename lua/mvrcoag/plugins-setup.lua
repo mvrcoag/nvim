@@ -18,7 +18,7 @@ vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappin
 vim.g.maplocalleader = "\\" -- Same for `maplocalleader`
 
 require("lazy").setup({
-  "rose-pine/neovim",
+	"rose-pine/neovim",
 	"christoomey/vim-tmux-navigator", -- ctrl + navigation to move between split views
 	"numToStr/Comment.nvim", -- Comment blocks with g+c+motion or c for the current line
 	"nvim-lua/plenary.nvim", -- lua functions fot other plugins
@@ -35,27 +35,33 @@ require("lazy").setup({
 	"L3MON4D3/LuaSnip",
 	"saadparwaiz1/cmp_luasnip",
 	"rafamadriz/friendly-snippets",
-  -- mason
-  "williamboman/mason.nvim",
-  "williamboman/mason-lspconfig.nvim",
-  -- lspconfig
-  "hrsh7th/cmp-nvim-lsp",
-  "neovim/nvim-lspconfig",
-  -- lsp saga
-  "nvimdev/lspsaga.nvim",
-  -- null-ls
-  "jose-elias-alvarez/null-ls.nvim",
-  "jayp0521/mason-null-ls.nvim",
-  -- welcome screen
-  {
-    'goolord/alpha-nvim',
-    config = alpha.config
-  },
-  -- treesitter
-  "nvim-treesitter/nvim-treesitter",
-  -- auto closing
-  "windwp/nvim-autopairs",
-  "windwp/nvim-ts-autotag",
-  -- git signs
-  "lewis6991/gitsigns.nvim",
+	-- mason
+	"williamboman/mason.nvim",
+	"williamboman/mason-lspconfig.nvim",
+	-- lspconfig
+	"hrsh7th/cmp-nvim-lsp",
+	"neovim/nvim-lspconfig",
+	-- lsp saga
+	"nvimdev/lspsaga.nvim",
+	-- null-ls
+	"jose-elias-alvarez/null-ls.nvim",
+	"jayp0521/mason-null-ls.nvim",
+	-- welcome screen
+	{
+		"goolord/alpha-nvim",
+		config = alpha.config,
+	},
+	-- treesitter
+	"nvim-treesitter/nvim-treesitter",
+	-- auto closing
+	"windwp/nvim-autopairs",
+	"windwp/nvim-ts-autotag",
+	-- git signs
+	"lewis6991/gitsigns.nvim",
+
+	-- github copilot
+	"github/copilot.vim",
+
+	-- blade laravel
+	"EmranMR/tree-sitter-blade",
 })
