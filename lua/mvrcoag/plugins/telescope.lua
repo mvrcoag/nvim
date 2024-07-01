@@ -11,6 +11,11 @@ if not actions_setup then
 end
 
 telescope.setup({
+	extensions = {
+		file_browser = {
+			hijack_netrw = true,
+		},
+	},
 	defaults = {
 		mappings = {
 			i = {
@@ -19,7 +24,7 @@ telescope.setup({
 				["<C-j>"] = actions.move_selection_next,
 				["<C-q>"] = actions.send_selected_to_qflist + actions.open_qflist,
 				["<C-t>"] = actions.select_tab,
-				["<C-s>"] = actions.select_horizontal,
+				["<C-h>"] = actions.select_horizontal,
 				["<C-v>"] = actions.select_vertical,
 			},
 		},
@@ -27,3 +32,4 @@ telescope.setup({
 })
 
 telescope.load_extension("fzf")
+telescope.load_extension("file_browser")
