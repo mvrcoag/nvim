@@ -30,6 +30,7 @@ local servers = {
 	"phpactor",
 	"vtsls",
 	"prismals",
+	"pyright",
 }
 
 for _, lsp in ipairs(servers) do
