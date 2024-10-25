@@ -40,6 +40,7 @@ treesitter.setup({
 		"dockerfile",
 		"gitignore",
 		"http",
+		"go",
 	},
 	-- auto install above language parsers
 	auto_install = true,

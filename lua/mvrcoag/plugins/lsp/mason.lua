@@ -17,6 +17,7 @@ mason_lspconfig.setup({
 		"vtsls",
 		"prismals",
 		"pyright",
+		"gopls",
 	},
 	automatic_installation = true,
 })
@@ -40,6 +41,8 @@ mason_null_ls.setup({
 		"mypy",
 		"debugpy",
 		"isort",
+		"gofmt", -- go formatter
+		"golangci-lint", -- go linter
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,

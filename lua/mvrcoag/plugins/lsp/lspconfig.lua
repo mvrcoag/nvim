@@ -31,6 +31,7 @@ local servers = {
 	"vtsls",
 	"prismals",
 	"pyright",
+	"gopls",
 }
 
 for _, lsp in ipairs(servers) do
