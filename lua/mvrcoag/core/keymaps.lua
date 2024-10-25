@@ -36,3 +36,6 @@ keymap.set("n", "<leader>fb", "<cmd>Telescope file_browser path=%:p:h select_buf
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
+
+-- rest client
+keymap.set("n", "<leader>rr", ":Rest run<CR>")
