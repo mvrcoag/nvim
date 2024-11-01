@@ -68,8 +68,4 @@ require("lazy").setup({
 
 	-- blade laravel
 	"EmranMR/tree-sitter-blade",
-
-	-- rest client
-	"rest-nvim/rest.nvim",
-	"rest-nvim/tree-sitter-http",
 })
