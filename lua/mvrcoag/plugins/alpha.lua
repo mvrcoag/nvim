@@ -14,7 +14,11 @@ return {
                     ]]
 
 		dashboard.section.buttons.val = {
-			dashboard.button("f", "Find file", ":Telescope find_files<CR>"),
+			dashboard.button(
+				"f",
+				"Find file",
+				":Telescope find_files find_command=rg,--ignore,--hidden,--files<cr><CR>"
+			),
 			dashboard.button(
 				"x",
 				"File explorer",
