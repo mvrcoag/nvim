@@ -10,6 +10,14 @@ if not actions_setup then
 	return
 end
 
+local ignore_files = {
+	"node_modules",
+	"vendor",
+	"target",
+	"dist",
+	"build",
+}
+
 telescope.setup({
 	extensions = {
 		file_browser = {
@@ -17,6 +25,7 @@ telescope.setup({
 		},
 	},
 	defaults = {
+		file_ignore_patterns = ignore_files,
 		mappings = {
 			i = {
 				-- all is a combination of Ctrl + Letter
