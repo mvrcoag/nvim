@@ -27,10 +27,6 @@ require("lazy").setup({
 	-- telescope
 	{ "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
 	{ "nvim-telescope/telescope.nvim", tag = "0.1.8" },
-	{
-		"nvim-telescope/telescope-file-browser.nvim",
-		dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
-	},
 	-- autocompletion
 	"hrsh7th/nvim-cmp",
 	"hrsh7th/cmp-buffer",
@@ -68,4 +64,7 @@ require("lazy").setup({
 
 	-- blade laravel
 	"EmranMR/tree-sitter-blade",
+
+	-- oil
+	"stevearc/oil.nvim",
 })

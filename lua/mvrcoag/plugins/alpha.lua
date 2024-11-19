@@ -19,11 +19,7 @@ return {
 				"Find file",
 				":Telescope find_files find_command=rg,--ignore,--hidden,--files<cr><CR>"
 			),
-			dashboard.button(
-				"x",
-				"File explorer",
-				":Telescope file_browser path=%:p:h select_buffer=true hidden=true<cr>"
-			),
+			dashboard.button("x", "File explorer", ":Oil<CR>"),
 			dashboard.button("e", "New file", ":ene <BAR> startinsert<CR>"),
 			dashboard.button("p", "Find word", ":Telescope live_grep<CR>"),
 			dashboard.button("r", "Recently opened files", ":Telescope oldfiles<CR>"),

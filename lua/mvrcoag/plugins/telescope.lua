@@ -11,11 +11,6 @@ if not actions_setup then
 end
 
 telescope.setup({
-	extensions = {
-		file_browser = {
-			hijack_netrw = true,
-		},
-	},
 	defaults = {
 		mappings = {
 			i = {
@@ -32,4 +27,3 @@ telescope.setup({
 })
 
 telescope.load_extension("fzf")
-telescope.load_extension("file_browser")
