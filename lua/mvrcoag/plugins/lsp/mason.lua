@@ -36,10 +36,8 @@ mason_null_ls.setup({
 		"phpcs",
 		"phpcsfixer",
 		"black", -- python formatter
-		"pylint",
-		"flake8",
 		"mypy",
-		"debugpy",
+		"ruff",
 		"isort",
 		"gofmt", -- go formatter
 		"golangci-lint", -- go linter

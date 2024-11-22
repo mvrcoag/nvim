@@ -30,9 +30,14 @@ null_ls.setup({
 		diagnostics.phpcs,
 		formatting.phpcsfixer,
 		formatting.black, -- python formatter
-		diagnostics.pylint, -- python linter
-		diagnostics.flake8, -- python linter
-		diagnostics.mypy, -- python linter
+		diagnostics.ruff, -- python linter
+		formatting.ruff, -- python formatter
+		diagnostics.mypy.with({
+			extra_args = function()
+				local virtual = os.getenv("VIRTUAL_ENV") or "/usr"
+				return { "--python-executable", virtual .. "/bin/python" }
+			end,
+		}),
 		formatting.gofmt, -- go formatter
 		diagnostics.golangci_lint, -- go linter
 	},
