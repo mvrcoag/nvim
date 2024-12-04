@@ -7,7 +7,7 @@ keymap.set("i", "jk", "<ESC>") -- return to normal mode
 
 keymap.set("n", "<leader>nh", ":nohl<CR>") -- in normal mode space+n+h turn off highlight
 
-keymap.set("n", "x", '"_x')
+keymap.set("n", "x", ":Ex<CR>") -- open file explorer
 
 keymap.set("n", "<leader>+", "<C-a>")
 keymap.set("n", "<leader>-", "<C-x>")

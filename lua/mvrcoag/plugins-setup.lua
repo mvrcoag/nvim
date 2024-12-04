@@ -16,7 +16,7 @@ vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappin
 vim.g.maplocalleader = "\\" -- Same for `maplocalleader`
 
 require("lazy").setup({
-	"yorickpeterse/nvim-grey",
+	{ "projekt0n/github-nvim-theme", name = "github-theme" },
 	"christoomey/vim-tmux-navigator", -- ctrl + navigation to move between split views
 	"nvim-lua/plenary.nvim", -- lua functions for other plugins
 	"kyazdani42/nvim-web-devicons", -- file icons
