@@ -22,9 +22,6 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") -- go next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") -- go prev tab
 
--- plugins keymaps
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle nvim tree
-
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files find_command=rg,--ignore,--hidden,--files<cr>")
 keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>")
@@ -32,12 +29,7 @@ keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>")
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
 
-keymap.set("n", "<leader>fb", "<cmd>:Oil<cr>") -- open file browser in current file directory
-
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 -- restart eslint_d
 -- keymap.set("n", "<leader>rs", ":!pkill -f eslint_d<CR>")
-
--- rest client
-keymap.set("n", "<leader>rr", ":Rest run<CR>")

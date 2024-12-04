@@ -12,6 +12,21 @@ end
 
 telescope.setup({
 	defaults = {
+		prompt_prefix = "",
+		entry_prefix = " ",
+		selection_caret = " ",
+
+		layout_strategy = "grey",
+		layout_config = {
+			-- The extension supports both "top" and "bottom" for the prompt.
+			prompt_position = "top",
+
+			-- You can adjust these settings to your liking.
+			width = 0.6,
+			height = 0.5,
+			preview_width = 0.6,
+		},
+
 		mappings = {
 			i = {
 				-- all is a combination of Ctrl + Letter
@@ -27,3 +42,4 @@ telescope.setup({
 })
 
 telescope.load_extension("fzf")
+telescope.load_extension("grey")

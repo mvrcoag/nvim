@@ -1,5 +1,3 @@
-local alpha = require("mvrcoag.plugins.alpha")
-
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
 	vim.fn.system({
@@ -18,10 +16,9 @@ vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappin
 vim.g.maplocalleader = "\\" -- Same for `maplocalleader`
 
 require("lazy").setup({
-	"rose-pine/neovim",
+	"yorickpeterse/nvim-grey",
 	"christoomey/vim-tmux-navigator", -- ctrl + navigation to move between split views
-	"numToStr/Comment.nvim", -- Comment blocks with g+c+motion or c for the current line
-	"nvim-lua/plenary.nvim", -- lua functions fot other plugins
+	"nvim-lua/plenary.nvim", -- lua functions for other plugins
 	"kyazdani42/nvim-web-devicons", -- file icons
 	"nvim-lualine/lualine.nvim", -- status line
 	-- telescope
@@ -46,11 +43,6 @@ require("lazy").setup({
 	-- null-ls
 	"jose-elias-alvarez/null-ls.nvim",
 	"jayp0521/mason-null-ls.nvim",
-	-- welcome screen
-	{
-		"goolord/alpha-nvim",
-		config = alpha.config,
-	},
 	-- treesitter
 	"nvim-treesitter/nvim-treesitter",
 	-- auto closing
@@ -61,10 +53,4 @@ require("lazy").setup({
 
 	-- github copilot
 	"github/copilot.vim",
-
-	-- blade laravel
-	"EmranMR/tree-sitter-blade",
-
-	-- oil
-	"stevearc/oil.nvim",
 })

@@ -1,5 +1,7 @@
 local opt = vim.opt -- for conciseness
 
+opt.laststatus = 3
+
 -- line numbers
 opt.relativenumber = true
 opt.number = true
@@ -36,4 +38,3 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
-
