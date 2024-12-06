@@ -21,9 +21,9 @@ telescope.setup({
 			prompt_position = "top",
 
 			-- You can adjust these settings to your liking.
-			width = 0.6,
+			width = 0.7,
 			height = 0.5,
-			preview_width = 0.6,
+			preview_width = 0.4,
 		},
 
 		mappings = {
