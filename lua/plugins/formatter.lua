@@ -13,5 +13,5 @@ return {
 				go = require("formatter.filetypes.go").gofmt,
 			},
 		})
-	end
+	end,
 }
