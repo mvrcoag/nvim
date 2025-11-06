@@ -14,3 +14,5 @@ map("n", "<C-k>", "<C-w>k", opts)
 
 map("n", "<leader>sv", ":vsplit<CR>", opts)
 map("n", "<leader>sh", ":split<CR>", opts)
+
+map("t", "<Esc>", "<C-\\><C-n>")

@@ -1,6 +1,12 @@
 local opts = {
 	ensure_installed = {
-		"javascript", "typescript"	
+		"javascript",
+        "typescript",
+        "markdown",
+        "markdown_inline",
+        "html",
+        "python",
+        "go"
 	}
 }
 
